@@ -3,8 +3,8 @@ name: Feature Branch or Main or Master
 on:
   push:
     branches-ignore:
-      - 'master'
       - 'main'
+      - 'master'
       - 'release*'
 
 jobs:
